@@ -4,8 +4,8 @@ from pathlib import Path
 
 random.seed(42)
 
-combined_dir = Path(r"C:\Users\raiha\Downloads\MRI Tumor Dataset\Combined")
-output_dir = Path(r"C:\Users\raiha\Downloads\MRI Tumor Dataset\split_70_15_15")
+combined_dir = Path(r"Dataset\Combined")
+output_dir = Path(r"Dataset")
 
 classes = ["glioma", "meningioma", "notumor", "pituitary"]
 
